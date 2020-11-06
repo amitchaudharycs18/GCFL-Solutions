@@ -1,0 +1,9 @@
+n=int(input())
+w=''
+for i in range(n):
+    w=w+" "+input()
+for j in range(int(input())):
+    br=input()
+    am=br[:-2]+'se'
+    a=w.count(br)+w.count(am)
+    print(a)
