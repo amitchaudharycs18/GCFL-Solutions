@@ -1,0 +1,9 @@
+n=int(input())
+w=''
+for i in range(n):
+    w=w+" "+ input()
+for j in range(int(input())):
+    uk=input()
+    us=uk.replace('u','')
+    a=w.count(uk)+w.count(us)
+    print(a)
