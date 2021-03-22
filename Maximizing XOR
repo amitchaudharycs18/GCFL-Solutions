@@ -9,8 +9,8 @@ import sys
 # Complete the maximizingXor function below.
 def maximizingXor(l, r):
     m=0
-    for i in range(l,r):
-        for j in range(i,r):
+    for i in range(l,r+1):
+        for j in range(i,r+1):
             if((i^j)>m):
                 m=i^j
     return m
